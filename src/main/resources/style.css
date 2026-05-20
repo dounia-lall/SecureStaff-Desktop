@@ -1,0 +1,248 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #f3f6fb;
+}
+
+.login-card, .panel {
+    -fx-background-color: white;
+    -fx-background-radius: 14;
+    -fx-border-color: #e3e9f3;
+    -fx-border-radius: 14;
+    -fx-effect: dropshadow(gaussian, rgba(20, 32, 54, 0.12), 18, 0, 0, 8);
+}
+
+.alert-panel {
+    -fx-background-color: #fff7ed;
+    -fx-background-radius: 12;
+    -fx-border-color: #fed7aa;
+    -fx-border-radius: 12;
+    -fx-padding: 14 18;
+}
+
+.alert-text {
+    -fx-text-fill: #1f2a44;
+    -fx-font-size: 13px;
+    -fx-font-weight: 650;
+}
+
+.brand {
+    -fx-font-size: 30px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #152033;
+    -fx-effect: dropshadow(gaussian, rgba(36, 88, 216, 0.28), 10, 0.25, 0, 2);
+}
+
+.app-logo {
+    -fx-background-color: linear-gradient(to bottom right, #2458d8, #13b981);
+    -fx-background-radius: 14;
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-weight: 900;
+    -fx-padding: 14 16;
+    -fx-effect: dropshadow(gaussian, rgba(36, 88, 216, 0.35), 14, 0.25, 0, 4);
+}
+
+.subtitle {
+    -fx-text-fill: #667085;
+    -fx-font-size: 13px;
+}
+
+.page-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #152033;
+    -fx-effect: dropshadow(gaussian, rgba(36, 88, 216, 0.22), 8, 0.25, 0, 2);
+}
+
+.section-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #152033;
+    -fx-effect: dropshadow(gaussian, rgba(36, 88, 216, 0.16), 6, 0.2, 0, 1);
+}
+
+.primary-button {
+    -fx-background-color: #2458d8;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-font-weight: 700;
+    -fx-padding: 10 16;
+}
+
+.danger-button {
+    -fx-background-color: #dc2626;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-font-weight: 700;
+    -fx-padding: 10 16;
+}
+
+.muted-button {
+    -fx-background-color: #eef3fb;
+    -fx-text-fill: #1f2a44;
+    -fx-background-radius: 8;
+    -fx-font-weight: 700;
+    -fx-padding: 10 16;
+}
+
+.text-field, .combo-box, .date-picker, .text-area {
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #d7deea;
+    -fx-background-color: white;
+}
+
+.combo-box .list-cell {
+    -fx-font-weight: 600;
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-background-color: #dbeafe;
+    -fx-text-fill: #1d4ed8;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #f3f6fb;
+}
+
+.tab {
+    -fx-background-radius: 10 10 0 0;
+    -fx-padding: 8 14;
+}
+
+.table-view {
+    -fx-background-radius: 10;
+    -fx-border-color: #e3e9f3;
+    -fx-border-radius: 10;
+}
+
+.agent-check {
+    -fx-font-size: 13px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1f2a44;
+    -fx-padding: 7 10;
+    -fx-background-color: #f8fbff;
+    -fx-background-radius: 8;
+    -fx-border-color: #e3e9f3;
+    -fx-border-radius: 8;
+    -fx-effect: dropshadow(gaussian, rgba(36, 88, 216, 0.10), 7, 0.2, 0, 1);
+}
+
+.agent-check:selected {
+    -fx-background-color: #dbeafe;
+    -fx-text-fill: #1d4ed8;
+    -fx-border-color: #60a5fa;
+}
+
+.dashboard-grid {
+    -fx-background-color: #dfe7f2;
+    -fx-background-radius: 10;
+    -fx-border-color: #d7deea;
+    -fx-border-radius: 10;
+    -fx-padding: 1;
+}
+
+.dashboard-cell-header {
+    -fx-background-color: #dbeafe;
+    -fx-text-fill: #1d4ed8;
+    -fx-font-weight: 800;
+    -fx-padding: 8 10;
+}
+
+.dashboard-cell {
+    -fx-background-color: #f8fbff;
+    -fx-text-fill: #1f2a44;
+    -fx-font-weight: 650;
+    -fx-padding: 8 10;
+}
+
+.chart-card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 12;
+    -fx-border-color: #e3e9f3;
+    -fx-border-radius: 12;
+    -fx-padding: 12;
+}
+
+.dashboard-chart {
+    -fx-background-color: transparent;
+    -fx-font-size: 12px;
+}
+
+.dashboard-chart .chart-title {
+    -fx-text-fill: #152033;
+    -fx-font-size: 16px;
+    -fx-font-weight: 800;
+}
+
+.dashboard-chart .axis-label,
+.dashboard-chart .axis .axis-label,
+.dashboard-chart .chart-legend-item,
+.dashboard-chart .axis {
+    -fx-text-fill: #1f2a44;
+    -fx-tick-label-fill: #1f2a44;
+}
+
+.dashboard-chart .chart-plot-background {
+    -fx-background-color: #f8fbff;
+}
+
+.dashboard-chart .chart-horizontal-grid-lines,
+.dashboard-chart .chart-vertical-grid-lines {
+    -fx-stroke: #e3e9f3;
+}
+
+.dashboard-chart .default-color0.chart-series-line {
+    -fx-stroke: #16a34a;
+    -fx-stroke-width: 3px;
+}
+
+.dashboard-chart .default-color1.chart-series-line {
+    -fx-stroke: #dc2626;
+    -fx-stroke-width: 3px;
+}
+
+.dashboard-chart .default-color2.chart-series-line {
+    -fx-stroke: #f59e0b;
+    -fx-stroke-width: 3px;
+}
+
+.dashboard-chart .default-color0.chart-line-symbol {
+    -fx-background-color: #16a34a, white;
+}
+
+.dashboard-chart .default-color1.chart-line-symbol {
+    -fx-background-color: #dc2626, white;
+}
+
+.dashboard-chart .default-color2.chart-line-symbol {
+    -fx-background-color: #f59e0b, white;
+}
+
+.presence-histogram .default-color0.chart-bar {
+    -fx-bar-fill: #16a34a;
+}
+
+.presence-histogram .default-color1.chart-bar {
+    -fx-bar-fill: #dc2626;
+}
+
+.presence-histogram .default-color2.chart-bar {
+    -fx-bar-fill: #f59e0b;
+}
+
+.contract-chart .chart-bar.series0.data0 {
+    -fx-bar-fill: #16a34a;
+}
+
+.contract-chart .chart-bar.series0.data1 {
+    -fx-bar-fill: #f59e0b;
+}
+
+.contract-chart .chart-bar.series0.data2 {
+    -fx-bar-fill: #2563eb;
+}
+
+.contract-chart .chart-bar.series0.data3 {
+    -fx-bar-fill: #7c3aed;
+}
