@@ -126,6 +126,12 @@ Système de retour arrière (undo)
 
 ![Graphiques](screenshots/graphe.png)
 
+## Export PDF des plannings
+
+L’application permet de générer et exporter les plannings des agents en format PDF afin de faciliter le suivi et l’impression des affectations.
+
+![Planning PDF](screenshots/planning-pdf.png)
+
 Identifiants de démonstration
 Login : admin
 Mot de passe : admin123
