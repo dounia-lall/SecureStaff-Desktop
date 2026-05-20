@@ -82,7 +82,7 @@ Système de retour arrière (undo)
 
 ## Connexion
 
-![Connexion](screenshots/login.png)
+![Connexion](screenshots/connexion.png)
 
 ---
 
