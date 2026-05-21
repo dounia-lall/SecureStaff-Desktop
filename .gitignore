@@ -1,5 +1,16 @@
+# Maven
 target/
+
+# IntelliJ
 .idea/
 *.iml
+
+# Logs
 *.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive config
 src/main/resources/db.properties
