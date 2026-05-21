@@ -322,7 +322,7 @@ BCrypt.checkpw(password, hashedPassword);
 
 ---
 
-# Objectif du projet
+# Compétences développées
 
 Ce projet m’a permis de développer mes compétences en :
 
